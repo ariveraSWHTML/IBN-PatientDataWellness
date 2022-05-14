@@ -1,37 +1,190 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/ariveraSWHTML/IBN-PatientDataWellness/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+<!DOCTYPE html>
+<html>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<head>
 
-### Markdown
+<title>Patient Data and Wellness</title>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+/*This is where the body starts*/
+/*Utilize Garamond Font*/
 
-1. Numbered
-2. List
+body {
+  font-family: "Garamond";	
+  color: black;
+  background-image: url('backdrop.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 
-**Bold** and _Italic_ and `Code` text
+}
 
-[Link](url) and ![Image](src)
-```
+/*Header styles*/
+h1 {  
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+    padding-bottom: 50px; 
+    color:black;
+    font-family: Garamond;
+    font-size: 3vw; 
+    text-align: center;
+    border-style: outset;
+    border-width: 7px;
+    border-color: green;
+    text-shadow: .1em .1em .1em Green;
+}
 
-### Jekyll Themes
+h2 {     
+    text-align: Center;
+    color:black;
+    font-family: Garamond;
+    text-shadow: .1em .1em .1em #800000;
+    padding-bottom: 5px;
+    font-size: 3vw; 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ariveraSWHTML/IBN-PatientDataWellness/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+/*Border style code
+    border-style: outset;
+    border-width: 7px;
+    border-color: green;
+*/
+ }
 
-### Support or Contact
+/*Paragraph styles*/
+p { 
+	text-align: left;
+	font-size: 1.5vw;	
+    	padding-bottom: 20px;
+	text-indent: 5em;
+}
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+p1 { 
+	text-align: center;
+	font-size: 1.5vw;	
+        padding-bottom: 20px;
+  }
+
+p3 { 
+	text-align: center;
+	font-size: 1vw;	
+  }
+
+/* List syle for horizontal nav bar */
+
+ul {
+  list-style-type: none;
+  margin: 8px;
+  padding: 12px;
+  overflow: hidden;
+  background-color: gray;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  font-size: 1.6vw;
+  text-align: center;
+  padding: 24px 32px;
+  text-decoration: none;
+  background-color: gray;
+  text-shadow: .1em .1em .1em #C0C0C0;
+}
+
+/*change color on nav bar on hover*/
+li a:hover {
+  background-color: Green;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+/*Add buttons to page*/
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Garamond;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  display:block; 
+  margin: 0 auto;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    color: black;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="main">
+
+<!--Header info-->
+
+<ul>
+  <li style= "font-size:2vw"><b><em> Featured services: </b></em></li>
+  <li><a href="https://ariveraswhtml.github.io/arivera.github.io/origins.html"><b><u>Cardiology</u></a></li>
+  <li><a href="https://ariveraswhtml.github.io/arivera.github.io/80s90s.html"><b><u>Oncology</u></a></li>
+  <li><a href="https://ariveraswhtml.github.io/arivera.github.io/90s2000.html"><b><u>Wellness</u></a></li>
+  <li><a href="https://ariveraswhtml.github.io/arivera.github.io/gamingtoday.html"><b><u>Chiropractic</u></a></li>
+  <li><a href="https://ariveraswhtml.github.io/arivera.github.io/gamingtoday.html"><b><u>Emergency</u></a></li>
+  <li><a href="mailto:lpg.com?subject=Patient Data Wellness Website Message&body=Thank you for contacting the Local Physicians Group. How can we help? "><u>Contact Us</u></a></li>
+</ul>
+
+<h1><img src="patientDataWelcome.JPG" alt="LPG icons" style="float:left;width:7em;height:4em;"> <img src="patientDataWelcome.JPG" alt="LPG icons" style="float:right;width:7em;height:4em;"> <br> Welcome to the Patient Data <br> and Wellness Page! </h1>
+
+<!--Paragraphs-->
+<p> The local physicians’ group, called LPG, is dedicated to providing specialty care to members of our community and surrounding areas. </p>
+ 
+
+<p> LPG has a proud staff of 25 physicians who specialize in keep you healthy. Technicians are available to provide lab and x-ray exams. Additionally, our professional staff consists of nurses, assistants, and front office staff ready to greet you at the door. </p>
+
+<p> We humbly serve approximately 3,000 patients, delivering services such as emergency medical treatment, wellness checkups, disease management, as well as many other medical offerings. </p>
+
+<p> Learn more about our services by clicking the links above. If you are interested in scheduling an appointment with our staff, then click the button below.... </p>
+
+<button class="button button1">Click to schedule an appointment today</button>
+
+<p><img src="main5.JPG" alt="Medical Services" style="float:center;width:240px;height:240px;padding: 36px 54px;"> <img src="main4.JPG" alt="Medical Services" style="float:center;width:240px;height:240px;padding: 36px 54px;"><img src="main3.JPG" alt="Medical Services" style="float:center;width:240px;height:240px;padding: 36px 54px;"></p>
+
+
+<footer>
+<p style="text-align:center;">***Page created for Computer Science Capstone/Local Physicians Group (LPG)***</p>
+</footer>
+
+
+</body>
+
+</html> 
